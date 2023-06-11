@@ -1,0 +1,14 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ["damaged", "wet", "box", "QR_CODE"]
+# nc: 3
+# names: ["damaged", "wet", "box"]
+# roboflow:
+#     workspace: yolotn-rzh1w
+#     project: carton-help
+#     version: 1
+#     license: CC BY 4.0
+#     url: https://universe.roboflow.com/yolotn-rzh1w/carton-help/dataset/1
